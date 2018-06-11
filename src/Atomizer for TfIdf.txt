@@ -1,0 +1,6 @@
+пример использования
+vectorizer = TfidfVectorizer(
+    min_df=100,
+    max_df=0.50,
+    analyzer=Atomizer().atomize
+)
